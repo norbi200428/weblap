@@ -1,0 +1,79 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-image: url(175997.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x:hidden;
+    overflow-y: hidden;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0 , 0.6);
+    border-bottom: 1px solid #fff;
+    font-family: 'Combo', cursive;
+}
+nav.logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Combo', cursive;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    background: rgba(255, 136, 0, 0.7);
+    border-radius: 6px;
+}
+.logo{
+    line-height: 80px;
+    font-weight: bold;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 50px;
+}
+.szoveg{
+   font-weight: bold;
+   color: white;
+   position: relative;
+   top:550px;
+   left: 600px;
+   font-family: 'Combo', cursive;
+}
+.iro{
+   font-weight: bold;
+   color: white;
+   position: relative;
+   top:600px;
+   left: 1080px;
+   font-family: 'Combo', cursive;
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(torpehatter.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.logo{
+    padding: 22px 20px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+}
+.szoveg{
+    color: white;
+    position: fixed;
+    top:100px;
+    left: 25px;
+    padding: 10px 11px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kanit', sans-serif;
+    animation:alternate;
+}
+.lista{
+    position: fixed;
+    color: white;
+    padding: 100px 50px;
+    height: 80px;
+    left: 800px;
+    font-family: 'Kanit', sans-serif;
+}
+.szoveg1{
+    color: white;
+    position: fixed;
+    padding: 10px 11px;
+    top:380px;
+    left: 25px;
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+}
+
+table {
+    font-family: 'Kanit', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    top:500px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr {
+    background-color: #dddddd;
+  }
+
+.home {
+    display: flex;
+    position: fixed;
+    top:700px;
+    left:855px;
+}
+  
